@@ -1,0 +1,98 @@
+
+Hi, thanks for your message. On https://marketplace.axieinfinity.com the search request returns a unique ID of an NFT. Your task would be to execute the underlying smart contract via request given that ID. It is important to use the correct request flow to avoid issues like stuck WETH transactions. End result should be a node js method. It is possible to use the browser context (puppeteer), but clicking manually is too slow. Do you think you can do this?
+Hi herecy
+thanks for your reply
+I think you want the bot to buy the NFT automatically with the specific ID and some criteria
+yes exactly, id is enough I will select it myself and your part would be to buy it using the id
+Main difficulty is translating the id to the contract I think
+H
+And to resemble the request flow of the game
+Okay, I see
+There are 2 main endpoints used, one is the game service (search, query details, register purchase) and the Ronin API which is used to interact with the chain.
+
+image.png
+image.png
+H
+data seems to be some kind of hashed transaction value
+Yes, it is common hashed transaction value
+H
+ok great
+Okay. to clarify our target is to buy the NFT automatically using ENdpoint
+?
+H
+yes exactly
+Not using user interface
+and to register the purchase properly so that the tokens are not lost
+H
+yes
+Sure, exactly
+we are on the same page
+optimally a node-js method
+I am not sure if it is better to post the requests with axios
+H
+or use the JS of the game
+and web3.js to interact the smart contract
+H
+yes I think that is best
+Great !
+H
+ok so you reckon you can do the conversion id to contract? do you want to take a look at the js first or is it clear what I mean?
+well, it's clear what you mean.
+quick question.
+I know we have to connect our wallet to buy the NFT
+yes exactly
+they have some kind of extension
+H
+ronin wallet
+To avoid the unnecessary operations, we can input the wallet address and private key , id to buy the token on our result ?
+I dont know that to be honest
+H
+
+image.png
+image.png
+Okay, no problem
+To be honest, I have some experiences in this field
+I just wanted to check if I have understood clearly
+Okay, everything is clear now
+H
+excellent. what would be the budget and time you need for this?
+800 EUR for 7 days
+is fine for me
+H
+could you reiterate in your own words the project and how you would do it?
+Okay,
+In nutshell, our project includes making kind of bot buying the NFT without any UI operations automatically using ID
+for that, we can use Node.js and web3.js to make the transaction to buy the token
+H
+correct
+Thank you
+H
+what do you need for development?
+To test buying operation, I need some ETh
+H
+ok no problem
+Cool !
+H
+I will provide a wallet with 250€ should be enough for a purchase
+You are awesome
+H
+just to reiterate: it is very important that the sale is registered also with the game service otherwise the eth are lost
+Yes, it is most important that the sale is registered with the game service.
+H
+ok great
+I will remember your words
+H
+if you want to test and see the request flow, best install ronin wallet extension for chrome, there are some requests in the browser, but the contract execution itself is in a separate window (from screenshot)
+Yes.
+H
+ok great. any questions left?
+No, your explanation is cool !
+and clear in everything
+H
+ok great. You seem knowledgable and competent I think you will do it perfectly.
+
+
+
+
+
+ 6poy4erTi6UueIkY3R0Oi6lEC
